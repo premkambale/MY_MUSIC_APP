@@ -1,0 +1,39 @@
+.df {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    width: 50%;
+    height: auto;
+    background-color: lime;
+
+    align-items: center;
+    gap: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 3px 2px black;
+}
+
+.heading {
+    margin: 10px;
+    width: 30%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.detailsMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.next {
+    padding-bottom: 5%;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+}
+
